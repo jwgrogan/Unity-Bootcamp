@@ -13,12 +13,18 @@ public class Player : MonoBehaviour
     private float _canFire = -1.0f;
     [SerializeField]
     private int _lives = 3;
+    private SpawnManager _spawnManager;
 
     // Start is called before the first frame update
     void Start()
     {
-        //set starting position to (0,0,0)
         transform.position = new Vector3(0,0,0);
+
+        _spawnManager = GameObject.Find("Spawn_Manager").GetComponent<SpawnManager>();
+        if (_spawnManager == null)
+        {
+            Debug.LogError("spawn manager is null");
+        }
     }
 
     // Update is called once per frame
@@ -36,6 +42,7 @@ public class Player : MonoBehaviour
         _lives--;
         if (_lives < 1)
         {
+            _spawnManager.OnPlayerDeath();
             Destroy(this.gameObject);
         }   
     }
@@ -43,6 +50,7 @@ public class Player : MonoBehaviour
     {
         _canFire = Time.time + _fireRate;
         Instantiate(_laserPrefab, transform.position + new Vector3(0,0.8f,0), Quaternion.identity);
+        // quaternion identity: https://docs.unity3d.com/ScriptReference/Quaternion-identity.html
     }
 
     void CalculateMovement()
