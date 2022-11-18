@@ -10,9 +10,11 @@ public class Player : MonoBehaviour
     private GameObject _laserPrefab;
     [SerializeField]
     private GameObject _tripleShotPrefab;
+    [SerializeField]
+    private GameObject _shieldVisualizer;
 
     [SerializeField]
-    private float _speed = 3.5f;
+    private float _speed = 5.0f;
     [SerializeField]
     private float _fireRate = 0.15f;
     private float _canFire = -1.0f;
@@ -21,6 +23,14 @@ public class Player : MonoBehaviour
     private SpawnManager _spawnManager;
     [SerializeField]
     private bool _tripleShotEnabled = true;
+    [SerializeField]
+    private bool _speedBoostEnabled = true;
+    [SerializeField]
+    private bool _shieldEnabled = true;
+
+    [SerializeField]
+    private int _score;
+    private UIManager _uiManager;
 
 
     // Start is called before the first frame update
@@ -29,9 +39,16 @@ public class Player : MonoBehaviour
         transform.position = new Vector3(0,0,0);
 
         _spawnManager = GameObject.Find("Spawn_Manager").GetComponent<SpawnManager>();
+        _uiManager = GameObject.Find("Canvas").GetComponent<UIManager>();
+
         if (_spawnManager == null)
         {
             Debug.LogError("spawn manager is null");
+        }
+
+        if (_uiManager == null)
+        {
+            Debug.LogError("ui manager is null");
         }
     }
 
@@ -55,6 +72,13 @@ public class Player : MonoBehaviour
 
     public void Damage()
     {
+        if (_shieldEnabled)
+        {
+            _shieldEnabled = false;
+            _shieldVisualizer.SetActive(false);
+            return;
+        }
+
         _lives--;
         if (_lives < 1)
         {
@@ -90,6 +114,27 @@ public class Player : MonoBehaviour
         }
     }
 
+    public void SpeedBoostActive()
+    {
+        _speedBoostEnabled = true;
+        StartCoroutine(SpeedBoostPowerDownRoutine());
+        
+    }
+    IEnumerator SpeedBoostPowerDownRoutine()
+    {
+        while (_speedBoostEnabled)
+        {
+            yield return new WaitForSeconds(5.0f);
+            _speedBoostEnabled = false;
+        }
+    }
+
+     public void ShieldActive()
+    {
+        _shieldEnabled = true;
+        _shieldVisualizer.SetActive(true);
+    }
+
     void CalculateMovement()
     {
         // need to create these variables to get input
@@ -104,7 +149,15 @@ public class Player : MonoBehaviour
         // transform.Translate(Vector3.right * horizonatalInput * _speed * Time.deltaTime);
         // transform.Translate(Vector3.up * verticalInput * _speed * Time.deltaTime); 
 
-        transform.Translate(direction * _speed * Time.deltaTime);
+        if (_speedBoostEnabled)
+        {
+            transform.Translate(direction * _speed * 2.0f * Time.deltaTime);
+        }
+        else 
+        {
+            transform.Translate(direction * _speed * Time.deltaTime);
+        }
+        
 
         // wrap x axis movement
         if (transform.position.x > 11)
@@ -128,5 +181,11 @@ public class Player : MonoBehaviour
 
         // easier option
         transform.position = new Vector3(transform.position.x, Mathf.Clamp(transform.position.y, -3.8f, 0),0);
+    }
+
+    public void AddScore(int points)
+    {
+        _score += points;
+        _uiManager.UpdateScore(_score);
     }
 }

@@ -147,7 +147,7 @@ GameObject:
   m_Component:
   - component: {fileID: 5768014680806131627}
   m_Layer: 0
-  m_Name: Triple_Shot
+  m_Name: Triple_Shot_Lasers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
