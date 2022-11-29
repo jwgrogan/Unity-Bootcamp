@@ -1,27 +1,27 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+    m_FilePath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
       Shooter/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638017870850000000
+      ticks: 638053440280000000
     m_Hash: 1071124706
   m_LockFileStatus:
-    m_FilePath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+    m_FilePath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
       Shooter/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638017870890000000
+      ticks: 638053440280000000
     m_Hash: 2593603777
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+m_ProjectPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
   Shooter/Packages
 m_EditorVersion: 2021.3.8f1 (b30333d56e81)
 m_ResolvedPackages:
@@ -30,7 +30,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.17.1
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.collab-proxy@1.17.1
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
@@ -40,7 +40,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Editor
-  type: 
+  type: asset
   description: The Version Control package gives you the ability to use either Collaborate
     or Plastic SCM for Unity (beta) in the Unity editor. To use Plastic SCM for Unity
     (beta), a Plastic SCM subscription is required. Learn more about how you can
@@ -100,6 +100,7 @@ m_ResolvedPackages:
     - 1.17.1
     - 1.17.2
     - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -114,6 +115,7 @@ m_ResolvedPackages:
     - 1.17.1
     - 1.17.2
     - 1.17.6
+    - 1.17.7
     - 2.0.0-preview.6
     - 2.0.0-preview.8
     - 2.0.0-preview.15
@@ -124,7 +126,7 @@ m_ResolvedPackages:
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    verified: 1.17.6
+    verified: 1.17.7
   dependencies:
   - name: com.unity.services.core
     version: 1.0.1
@@ -158,7 +160,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637916644700000000
   documentationUrl: 
@@ -176,7 +178,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
@@ -263,7 +265,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.15
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.ide.rider@3.0.15
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
@@ -273,7 +275,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: The JetBrains Rider Editor package provides an integration for using
     the JetBrains Rider IDE as a code editor for Unity. It adds support for generating
     .csproj files for code completion and auto-discovery of installations.
@@ -331,7 +333,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637914298700000000
   documentationUrl: 
@@ -349,7 +351,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 2.0.16
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.ide.visualstudio@2.0.16
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
@@ -359,7 +361,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio as code editor
     for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -409,7 +411,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637914298680000000
   documentationUrl: 
@@ -427,7 +429,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.2.5
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
@@ -437,7 +439,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: 
-  type: 
+  type: asset
   description: Code editor integration for supporting Visual Studio Code as code
     editor for unity. Adds support for generating csproj files for intellisense purposes,
     auto discovery of installations, etc.
@@ -471,7 +473,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637800255360000000
   documentationUrl: 
@@ -489,7 +491,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.1.31
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
@@ -499,7 +501,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Unity Test Framework
-  type: 
+  type: asset
   description: Test framework for running Edit mode and Play mode tests in Unity.
   status: 4
   errors: []
@@ -540,14 +542,18 @@ m_ResolvedPackages:
     - 1.1.31
     - 1.1.33
     - 1.3.0
+    - 1.3.1
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
     - 1.1.31
     - 1.1.33
     - 1.3.0
+    - 1.3.1
     - 2.0.1-exp.1
+    - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     verified: 1.1.33
@@ -575,7 +581,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637804266210000000
   documentationUrl: 
@@ -593,7 +599,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
@@ -603,7 +609,7 @@ m_ResolvedPackages:
     email: 
     url: 
   category: Text Rendering
-  type: 
+  type: asset
   description: 'TextMeshPro is the ultimate text solution for Unity. It''s the perfect
     replacement for Unity''s UI Text and the legacy Text Mesh.
 
@@ -741,7 +747,7 @@ m_ResolvedPackages:
     scopes: []
     isDefault: 1
     capabilities: 7
-  hideInEditor: 1
+  hideInEditor: 0
   isAssetStorePackage: 0
   datePublishedTicks: 637547111200000000
   documentationUrl: 
@@ -759,7 +765,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.6.4
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.timeline@1.6.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
@@ -849,6 +855,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.8.0
     compatible:
     - 1.6.4
     - 1.7.0-pre.1
@@ -856,6 +863,7 @@ m_ResolvedPackages:
     - 1.7.0
     - 1.7.1
     - 1.7.2
+    - 1.8.0
     verified: 1.6.4
   dependencies:
   - name: com.unity.modules.director
@@ -906,7 +914,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
@@ -969,7 +977,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.7.8
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.visualscripting@1.7.8
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
@@ -1055,7 +1063,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
@@ -1104,7 +1112,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
@@ -1152,7 +1160,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
@@ -1201,7 +1209,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
@@ -1250,7 +1258,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
@@ -1299,7 +1307,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
@@ -1352,7 +1360,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
@@ -1409,7 +1417,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
@@ -1459,7 +1467,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
@@ -1508,7 +1516,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
@@ -1557,7 +1565,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
@@ -1606,7 +1614,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
@@ -1655,7 +1663,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
@@ -1704,7 +1712,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
@@ -1757,7 +1765,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
@@ -1806,7 +1814,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
@@ -1863,7 +1871,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
@@ -1915,7 +1923,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
@@ -1964,7 +1972,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
@@ -2029,7 +2037,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
@@ -2078,7 +2086,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
@@ -2135,7 +2143,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
@@ -2184,7 +2192,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
@@ -2241,7 +2249,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
@@ -2298,7 +2306,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
@@ -2355,7 +2363,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
@@ -2428,7 +2436,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
@@ -2481,7 +2489,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
@@ -2542,7 +2550,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
@@ -2605,7 +2613,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
@@ -2654,7 +2662,7 @@ m_ResolvedPackages:
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
@@ -2715,7 +2723,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
@@ -2768,7 +2776,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.modules.uielementsnative@1.0.0
   assetPath: Packages/com.unity.modules.uielementsnative
   name: com.unity.modules.uielementsnative
@@ -2828,7 +2836,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
@@ -2889,7 +2897,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
@@ -2948,7 +2956,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.1.1
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.performance.profile-analyzer@1.1.1
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
@@ -3012,7 +3020,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.1
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.testtools.codecoverage@1.0.1
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
@@ -3058,6 +3066,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.7
     - 1.2.0
     - 1.2.1
+    - 1.2.2
     compatible:
     - 1.0.1
     - 1.1.0
@@ -3071,6 +3080,7 @@ m_ResolvedPackages:
     - 1.2.0-exp.7
     - 1.2.0
     - 1.2.1
+    - 1.2.2
     verified: 1.0.1
   dependencies:
   - name: com.unity.test-framework
@@ -3118,7 +3128,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.4.2
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.services.core@1.4.2
   assetPath: Packages/com.unity.services.core
   name: com.unity.services.core
@@ -3154,10 +3164,12 @@ m_ResolvedPackages:
     - 1.4.2
     - 1.4.3
     - 1.5.2
+    - 1.6.0
     compatible:
     - 1.4.2
     - 1.4.3
     - 1.5.2
+    - 1.6.0
     verified: 1.4.3
   dependencies:
   - name: com.unity.modules.unitywebrequest
@@ -3199,7 +3211,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 1.0.3
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.settings-manager@1.0.3
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
@@ -3257,7 +3269,7 @@ m_ResolvedPackages:
   isDirectDependency: 0
   version: 3.0.2
   source: 1
-  resolvedPath: /Users/jakegrogan/Documents/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
+  resolvedPath: /Users/jakegrogan/GitHub/Ultimate-Guide-to-Game-Development-with-Unity/Space
     Shooter/Library/PackageCache/com.unity.nuget.newtonsoft-json@3.0.2
   assetPath: Packages/com.unity.nuget.newtonsoft-json
   name: com.unity.nuget.newtonsoft-json
